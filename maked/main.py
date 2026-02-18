@@ -5,6 +5,7 @@ import subprocess
 import click
 
 @click.command()
+@click.version_option(package_name="maked")
 @click.argument("filename", type=click.Path(exists=True), required=False)
 @click.option("--dry-run", is_flag=True, help="Print the command without executing it.")
 def cli(filename, dry_run):
