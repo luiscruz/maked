@@ -1,6 +1,6 @@
 [project]
 name = "maked"
-version = "0.1.0"
+version = "0.1.1"
 description = "A CLI tool to execute commands inside Markdown files"
 authors = [
     {name = "Luis Cruz",email = "luismirandacruz@gmail.com"}
