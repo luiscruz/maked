@@ -13,6 +13,9 @@ dependencies = [
     "click (>=8.1.8,<9.0.0)"
 ]
 
+[tool.poetry.group.dev.dependencies]
+pytest = ">=8.0.0"
+
 [tool.poetry.scripts]
 maked = "maked.main:cli"
 
